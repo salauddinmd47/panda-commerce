@@ -1,0 +1,45 @@
+.bg-panda{
+    background-color: #fceae8;
+}
+.panda-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+ 
+    cursor: pointer;
+}
+.top-banner{
+    margin-top: 100px;
+}
+.categories img{
+    width: 100px;
+}
+.category-1{
+    background-color: orange;
+}
+.category-2{
+    background-color: orchid;
+}
+.category-3{
+    background-color:blue;
+}
+.search-bar input{
+    width:350px;
+    margin-left: 110px;
+}
+@media (max-width:688px) {
+    .search-bar input{
+       margin-left: 0;
+       width:100%;
+       margin-top:15px;
+      
+    } 
+    .bg-panda{
+        display: flex;
+        flex-direction: column-reverse;
+        padding:10px 0;
+    }
+    
+} 
